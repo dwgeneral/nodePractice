@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 
-app.use(express.static('public'));
+app.use(express.static('public')); // 访问：http://localhost:8180/images/bv.png
 app.get('/', function (req, res){
     res.send('Hello, Node');
 });

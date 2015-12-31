@@ -1,0 +1,100 @@
+index,v
+app.get('/index', function (req, res){    res.sendFile(__dirname + '/' + 'index.html');});,V
+/,v
+    console.,V
+    console.log(response);    res.end(JSON.stringify(response));,V
+t,v
+e,v
+g,v
+GET,v
+-->,v
+-,v
+!,v
+<,v
+    <!--<form action='http://127.0.0.1:8180/process_get' method='GET'>-->,V
+    res.end(response);,V
+log,v
+.,v
+console,v
+    console.log(response);,V
+8,v
+    Hello, Node !,V
+',v
+world,v
+a,v
+;,v
+    response.on('err', function() {        console.log('error------');    });,V
+data,v
+        body += data;,V
+    response.on('data', function(data) {        body += data;    });,V
+),v
+ ,v
+,,v
+:,v
+,V
+k,v
+isDate ,v
+/* ------------------------------------------------ * ------------------ util.isDate ----------------- * ------------------------------------------------ */,V
+RegExp ,v
+/* ------------------------------------------------ * ------------------ util.isRegExp --------------- * ------------------------------------------------ */,V
+Array ,v
+/* ------------------------------------------------ * ------------------ util.isArray --------------- * ------------------------------------------------ */,V
+inherits ,v
+/* ------------------------------------------------ * ------------------ util.inherits --------------- * ------------------------------------------------ */,V
+// utl.inspect(object, [showHidden], [depth], [colors])var util = require('util');function Person() {    this.name = 'Ezio';    this.toString = function() {    return this.name;    };}var obj = new Person();console.log(util.inspect(obj));console.log(util.inspect(obj, true);,V
+utl.inspect(object, [showHidden], [depth], [colors]),V
+ * ,V
+\,v
+util,v
+------------------ util.inherits ---------------,v
+titanium.platform=/Users/guoweidong/workspace/titanium_sdks/mobilesdk/osx/4.1.0.GA/androidandroid.platform=/Users/guoweidong/workspace/titanium_sdks/android-sdk-macosx/platforms/android-21google.apis=/Users/guoweidong/workspace/titanium_sdks/android-sdk-macosx/add-ons/addon-google_apis-google-21android.ndk=/Users/guoweidong/workspace/titanium_sdks/android-ndk-r10e,V
+/Users/guoweidong/workspace/titanium_sdks/mobilesdk/osx/4.1.0.GA,v
+titanium.platform=/Users/liumingxing/Library/Application Support/Titanium/mobilesdk/osx/5.0.2.GA/androidandroid.platform=/Users/liumingxing/Documents/android_sdk_macosx/platforms/android-21google.apis=/Users/liumingxing/Documents/android_sdk_macosx/add-ons/addon-google_apis-google-21,V
+//titanium.platform=/Users/liumingxing/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android//android.platform=/Users/liumingxing/Documents/android_sdk_macosx/platforms/android-14//google.apis=/Users/liumingxing/Documents/android_sdk_macosx/add-ons/addon-google_apis-google-14,V
+titanium.platform=/Users/guoweidong/workspace/titanium_sdks/mobilesdk/osx/4.1.0.GA/android,V
+Library,v
+liumingxing,v
+# 动态添加跳到用户project信息的页面的onClick事件,v
+true,v
+<<<<<<< HEAD:tiapp.xml    <!--<sdk-version>3.5.0.v20141107144115</sdk-version>-->=======>>>>>>> 1c22ac6a00390ff4da0ab7edc364ee6335ebfccb:tiapp.xml.example,V
+o,v
+l,v
+H,v
+    console.info('-----listProperties------->:');    console.info(Ti.App.Properties.listProperties());,V
+m,v
+I,v
+Image,v
+    console.info(typeof(this.toImage()));,V
+getImage,v
+typeof(this.getImage()),v
+ '-----本地保存图片成功----' + ,v
+    console.info( '-----本地保存图片成功----' + typeof(this.getImage()) );,V
+path,v
+localImage,v
+toBlob,v
+(,v
+d,v
+r,v
+        console.info(localImage);,V
+, caseData[i].id + index + '.jpg',v
+，还没应用，需要看一下具体加在哪里,v
+images[index].,v
+    console.info('---本地图片不存在，设置StringProperties， key + ' + caseData[i].images[index] + 'and value + ' + images[index].localName);,V
+    // 因为图片路径为/uploads/xxxxx/ 是目录格式，所以不能直接作为文件名字，用 Properties 做一下mapping,V
+    Ti.App.Properties.setString(caseData[i].images[index], images[index].localName);,V
+        // 因为图片路径为/uploads/xxxxx/ 是目录格式，所以不能直接作为文件名字，用 Properties 做一下mapping        console.info('---本地图片不存在，设置StringProperties， key + ' + caseData[i].images[index] + 'and value + ' + images[index].localName);        Ti.App.Properties.setString(caseData[i].images[index], images[index].localName);,V
+pathName,v
+    ,V
+              // 因为图片路径为/uploads/xxxxx/ 是目录格式，所以不能直接作为文件名字，用 Properties 做一下mapping              Ti.App.Properties.setString(caseData[i].images[index], this.localName);              if (osname == 'iphone'){                  var localImage = Ti.Filesystem.getFile(postsDir.path, this.localName)              }              else if (osname == 'android'){                  var localImage = Ti.Filesystem.getFile(postsDir.nativePath, this.localName)              }              localImage.write(this.toBlob());              console.info('-----本地保存图片成功----' + localImage.path);,V
+localName,v
+caseData[i].id + index + '.jpg',v
+        // 因为图片路径为/uploads/xxxxx/ 是目录格式，所以不能直接作为文件名字，用 Properties 做一下mapping,V
+              this,V
+        Ti.App.Properties.setString(remoteName, localName);        if (osname == 'iphone'){            var localImage = Ti.Filesystem.getFile(postsDir.path, this.localName)        }        else if (osname == 'android'){            var localImage = Ti.Filesystem.getFile(postsDir.nativePath, this.localName)        }        localImage.write(this.toBlob());        console.info('-----本地保存图片成功----' + localImage.path);,V
+        console.info('---本地图片不存在，设置StringProperties， key + ' + remoteName + 'and value + ' + localName);,V
+function saveImageToLocal(){},V
+    if (osname == 'iphone'){        var localImage = Ti.Filesystem.getFile(postsDir.path, this.localName)    }    else if (osname == 'android'){        var localImage = Ti.Filesystem.getFile(postsDir.nativePath, this.localName)    }    localImage.write(this.toBlob());    console.info('-----本地保存图片成功----' + localImage.path);,V
+].,v
+[,v
+images,v
+caseData[i].images[index],v

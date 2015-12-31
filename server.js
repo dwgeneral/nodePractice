@@ -8,6 +8,6 @@ http.createServer(function (request, response) {
 
     // 发送响应数据 "Hello World"
     response.end('Hello Node.js\n');
-}).listen(8888);
+}).listen(8180);
 
-console.log('Server running at http://127.0.0.1:8888/');
+console.log('Server running at http://127.0.0.1:8180/');
